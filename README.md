@@ -8,7 +8,7 @@
 
 This project was developed with the following technologies:
 
-- [React](https://reactjs.org)
+- [CRA](https://create-react-app.dev)
 - [Express](https://expressjs.com)
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
