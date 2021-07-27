@@ -1,4 +1,5 @@
 import React, { Fragment, useState } from 'react'
+import axios from 'axios'
 
 export const FileUpload = () => {
    const [file, setFile] = useState('')
@@ -9,9 +10,15 @@ export const FileUpload = () => {
       setFileName(e.target.files[0].name);
    }
 
+   const onSubmit = async e => {
+      e.preventDefault();
+      const formData = new FormData();
+      formData.append('file', file)
+   }
+
    return (
       <Fragment>
-         <form>
+         <form onSubmit={onSubmit}>
             <div className="custom-file">
                <input type="file" className="custom-file-input w-100" id="customFile" onChange={onChange} />
                <label className="custom-file-label" for="customFile">{fileName}</label>
