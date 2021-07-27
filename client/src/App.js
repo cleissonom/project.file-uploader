@@ -1,3 +1,4 @@
+import { FileUpload } from './components/FileUpload'
 import './App.css';
 
 function App() {
@@ -6,6 +7,8 @@ function App() {
          <h4 className="display-4 text-center mb-4">
             <i className="fab fa-react"> </i> <i class="fab fa-js-square"></i> File Uploader
          </h4>
+
+         <FileUpload />
       </div>
    );
 }
