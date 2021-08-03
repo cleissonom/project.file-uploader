@@ -1,3 +1,5 @@
+<hr>
+
 <p align="center">
   <img alt="WebSite image" src="../.github/app.png" width="100%">
 </p>
