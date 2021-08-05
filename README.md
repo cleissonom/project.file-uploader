@@ -1,7 +1,12 @@
+That's a archived repository
+
 <hr>
 
 <p align="center">
-  <img alt="WebSite image" src="../.github/app.png" width="100%">
+  <img alt="WebSite image" src="../.github/disabled.png" width="100%">
+</p>
+<p align="center">
+  <img alt="WebSite image" src="../.github/enabled.png" width="100%">
 </p>
 
 <hr>
